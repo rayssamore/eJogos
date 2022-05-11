@@ -8,7 +8,7 @@ namespace EJOGOSS.Models
         {
             // nome da pasta / nome do arquivo.csv
             string pasta = caminho.Split('/')[0];
-            Directory.CreateDirectory(caminho);
+            //Directory.CreateDirectory(caminho);
 
             if (!Directory.Exists(pasta))
                 {
